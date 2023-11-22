@@ -1,0 +1,19 @@
+.card {
+  background: #2c2f33;
+  color: #b0c4de;
+  box-shadow: 0 0 50px 18px #3c3c3c49;
+  padding: 10px;
+  cursor: pointer;
+}
+.card .card_header h3 {
+  text-align: center;
+  font-size: 24px;
+  color: #b0c4ded1;
+}
+.card .card_body {
+  padding: 10px;
+}
+.card .card_body h3 {
+  font-size: 16px;
+  text-align: center;
+}
