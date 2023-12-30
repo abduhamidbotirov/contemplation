@@ -2,8 +2,11 @@
   background: #2c2f33;
   color: #b0c4de;
   box-shadow: 0 0 50px 18px #3c3c3c49;
-  padding: 10px;
-  cursor: pointer;
+  padding: 20px 0 0;
+  width: 100%;
+  margin: auto;
+  max-width: 600px;
+  /* cursor: pointer; */
 }
 .card .card_header h3 {
   text-align: center;
@@ -16,4 +19,91 @@
 .card .card_body h3 {
   font-size: 16px;
   text-align: center;
+}
+.card_img img {
+  width: 100%;
+  height: 280px;
+}
+.card_comment {
+  border-top: 1px solid #b0c4de;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 20px;
+}
+.smills {
+  display: flex;
+  justify-content: end;
+  padding: 5px 15px;
+}
+.progress_post {
+  width: 100%;
+  padding: 0px 20px;
+  max-width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.progress_post .fath_span {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.progress_post .fath_span:hover {
+  background: rgba(255, 255, 255, 0.564);
+}
+.progress_post .fath_span:active {
+  background: rgba(255, 255, 255, 0.288);
+}
+.progress_post .increment {
+  width: 50px;
+  height: 60px;
+
+  border-radius: 35%;
+  background: rgba(255, 255, 255, 0.082);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+}
+.progress_post .increment i {
+  color: green;
+}
+.progress_post .disincrement i {
+  color: red;
+}
+.progress_post .disincrement {
+  width: 50px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.082);
+  border-radius: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about_post {
+  /* margin-left:58%; */
+  display: flex;
+  justify-content: space-between;
+  max-width: 280px;
+  /* margin: 0px 10px; */
+  width: 100%;
+
+  align-items: center;
+}
+.about_post span {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.082);
+  border-radius: 7px;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+
+.pin_post {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 20px;
 }

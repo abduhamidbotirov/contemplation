@@ -1,0 +1,18 @@
+.create-post {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #2c2f3382;
+  color: #b0c4de;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 1px solid #b0c4de;
+  width: 100%;
+  max-width: 240px;
+}
+.back {
+  background: black;
+  color: white;
+  border: 1px solid white;
+  max-width: 150px;
+}

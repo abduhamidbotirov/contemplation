@@ -1,0 +1,66 @@
+.create-post-form {
+  padding: 10px;
+  display: flex;
+  height: 100vh;
+  overflow-y: scroll;
+  justify-content: center;
+  align-items: center;
+}
+.create-post-form form {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+}
+.post-form {
+  background: transparent !important;
+  border: none;
+  padding: 30px;
+  -webkit-box-shadow: 4px 4px 19px 0px rgb(62, 63, 63);
+  -moz-box-shadow: 4px 4px 19px 0px rgb(62, 63, 63);
+  box-shadow: 4px 4px 19px 0px rgb(62, 63, 63);
+}
+.post-form label {
+  width: 100%;
+  font-weight: 300;
+}
+.post-form input,
+.post-form textarea,
+.post-form input:active {
+  background: #2c2f33;
+  border: 1px solid transparent;
+  border-radius: 2%;
+  width: 100%;
+  padding: 7px;
+  font-weight: 700;
+  margin-top: 5px;
+  color: #b0c4de;
+}
+.post-form input::placeholder,
+.post-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.275);
+  font-size: 16px;
+  font-weight: 200;
+}
+.post-form label {
+  color: #b0c4de;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.post-form label:nth-child(1) {
+  margin-top: 0;
+}
+.post-form input:focus,
+.post-form textarea:focus {
+  background: #2c2f33;
+  outline: none;
+}
+.post-form .submit {
+  background: #2c2f3382;
+  color: #b0c4de;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: 1px solid #b0c4de;
+  width: 100%;
+  margin-top: 20px;
+  /* max-width: 240px; */
+}
